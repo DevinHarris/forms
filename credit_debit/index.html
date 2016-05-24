@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Credit / Debit Card Information</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<form action="#" method="GET">
+			<div>
+				<h2>Billing Infomation</h2>
+			</div>
+			<div class="form-section">
+				<label for="full_name">Full Name</label>
+				<input type="text" id="full_name">
+			</div>
+
+			<div class="form-section">
+				<label for="card_num">Credit Card Number</label>
+				<input type="text" maxlength="19" id="card_num">
+			</div>
+
+			<div class="form-section">
+				<label for="csv">CSV</label>
+				<input type="text" id="csv" maxlength="3" class="csv">
+			</div>
+
+			<div class="form-section">
+				<label for="exp_date">Card Expiration Date</label>
+				<input type="month" id="exp_date">
+			</div>
+			<div class="form-section">
+				<button type="submit" class="order-btn">Place Order</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Schedule an appointment</title>
+	<meta name="viewport" content="width=device-width,intial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+
+		<form action="#" method="GET">
+
+			<div>
+				<h2 class="form-header">Schedule an appointment</h2>
+			</div>
+
+			<div class="form-section">
+				<label for="date" class="inline">Date</label>
+				<input type="date" id="date">
+			</div>
+
+			<div class="form-section">
+				<label for="time" class="inline">Time</label>
+				<input type="time" id="time">
+			</div>
+
+			<div class="form-section">
+				<label for="timezone" class="inline">Timezone</label>
+				<select name="timezone" id="timezone">
+					<option value="EST">EST</option>
+					<option value="PST">PST</option>
+					<option value="CST">CST</option>
+					<option value="MST">MST</option>
+					<option value="ASKT">AKST</option>
+					<option value="HAST">HAST</option>
+				</select>
+			</div>
+
+			<div class="form-section">
+				<label for="msg">Add a message</label>
+				<textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+			</div>
+
+			<div class="form-section">
+				<label for="number">Contact Number</label>
+				<input type="tel" id="number">
+			</div>
+
+			<div class="form-section">
+				<label for="email">Email</label>
+				<input type="email" id="email">
+			</div>
+
+			<div class="form-section">
+				<button type="submit" class="setup-btn">Setup appointment</button>
+			</div>
+			
+		</form>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,600);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+form {
+	width: 900px
+}
+
+label {
+	display: block;
+	font-size: 1.3em;
+	font-weight: 400;
+	margin-bottom: 20px;
+	color: #6C7A89;
+	margin-right: 10px;
+	font-weight: 300;
+}
+
+label:after {
+	content: ':';
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+	padding-top: 50px;
+	text-align: center;
+}
+
+form {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.form-header {
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+
+.form-section {
+	margin: 20px 0;
+}
+
+.form-inline {
+	display: inline-block;
+
+}
+
+.inline {
+	display: inline-block;
+}
+
+select {
+	border: none;
+	border-bottom: 1px solid #4ECDC4;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid #4ECDC4;
+	outline: none;
+	padding: 20px;
+	font-size: 1.3em;
+	font-weight: 300;
+}
+
+.setup-btn {
+	width: 250px;
+	height: 50px;
+	border: 1px solid #4ECDC4;
+	background-color: #4ECDC4;
+	color: #fff;
+	font-weight: 600;
+	outline: none;
+}

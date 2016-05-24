@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+label {
+	display: block;
+	font-size: 1.3em;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.search-form {
+	margin-top: 50px;
+}
+
+.form-msg {
+	font-weight: 300;
+	margin-top: 50px;
+}
+
+.container {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.search {
+	font-size: 2em;
+	width: 500px;
+	height: 50px;
+	font-weight: 300;
+	border: none;
+	border-bottom: 1px solid #2C3E50;
+	outline: none;
+	margin-right: 20px;
+	text-transform: lowercase;l
+}
+
+.categories {
+	border: none;
+	font-size: 1.5em;
+	outline: none;
+	text-transform: lowercase;
+	margin-right: 10px;
+}
+
+.search-btn {
+	border: 1px solid #2C3E50;
+	background: none;
+	border-radius: 20px;
+	font-size: 1.3em;
+	padding: 10px;
+	outline: none;
+}

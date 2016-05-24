@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Color building</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+	<div class="container">
+		<form action="#" method="GET">
+			<h2 class="form-header">Let's build some colors!</h2>
+			<div class="form-section form-inline">
+				<label for="red" class="hl red">Red</label>
+				<input type="range" id="red" min="0" max="255" step="5">
+			</div>
+
+			<div class="form-section form-inline">
+				<label for="green" class="hl green">Green</label>
+				<input type="range" id="green" min="0" max="255" step="5">
+			</div>
+
+			<div class="form-section form-inline">
+				<label for="blue" class="hl blue">Blue</label>
+				<input type="range" id="blue" min="0" max="255" step="5">
+			</div>
+
+			<div class="form-section form-inline">
+				<label for="alpha">Alpha</label>
+				<input type="range" min="0" max="1" step="0.01" id="alpha">
+			</div>
+
+			<div class="form-section">
+				<textarea name="color" id="color" cols="20" rows="5">Your color is:</textarea>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
