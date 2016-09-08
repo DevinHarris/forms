@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Schedule an appointment</title>
-	<meta name="viewport" content="width=device-width,intial-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<div class="container">
 
-		<form action="#" method="GET">
+		<form action="#" method="GET" id="schedule-form">
 
 			<div>
 				<h2 class="form-header">Schedule an appointment</h2>
@@ -44,7 +44,7 @@
 
 			<div class="form-section">
 				<label for="number">Contact Number</label>
-				<input type="tel" id="number">
+				<input type="tel" id="phone-number">
 			</div>
 
 			<div class="form-section">
@@ -59,5 +59,8 @@
 		</form>
 		
 	</div>
+
+	<script src="js/validator.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

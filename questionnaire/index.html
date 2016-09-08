@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Questionnaire</title>
-	<meta name="viewport" content="width=device-width,intial-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<div class="container">
 		<h1 class="form-header">Please answer all the questions below.</h1>
-		<form action="#" method="GET">
+		<form action="#" method="GET" class="question-form">
 			<div class="form-section">
 				<h2 class="form-question">What is your favorite color?</h2>
 			</div>
@@ -34,7 +34,7 @@
 				
 				<label for="other">
 					<input type="radio" id="other" name="color">Other
-					<input type="text">
+					<input type="text" id="other-color">
 					<button class="submit-btn">Submit!</button>
 				</label>
 			</div>
@@ -42,5 +42,8 @@
 		
 		</form>
 	</div>
+
+	<script src="js/validator.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
